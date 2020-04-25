@@ -87,4 +87,96 @@ echo"<br>";
 var_dump($a&&$b);
 echo"<br>";
 var_dump(!$a);
+
+echo"<br>";
+echo"<hr>";
+
+//2.část úkolu
+
+//3.úkol
+$DanielVágner1=1;
+$DanielVágner2=5;
+
+//4.úkol
+echo "Vágner Daniel";
+
+echo"<br>";
+
+//5.úkol
+if ($DanielVágner1 < $DanielVágner2 ) {
+ echo "Daniel";
+} else {
+ echo "Vágner";
+
+}
+echo"<br>";
+if ($DanielVágner2 < $DanielVágner1) {
+ echo "Daniel";
+} else {
+ echo "Vágner";
+}
+
+echo"<br>";
+
+//6.úkol
+if ($DanielVágner1 < 5) {
+
+ if ($DanielVágner2 < 7) {
+  echo "tato podmínka platí";
+ }
+} else {
+ echo "neni pravda";
+}
+echo"<br>";
+//7.úkol
+switch ($DanielVágner1) {
+ case 1:
+  echo "1";
+  break;
+ case 2:
+  echo "2";
+  break;
+ case 3:
+  echo "3";
+  break;
+ case 4:
+  echo "4";
+  break;
+ case 5:
+  echo "5";
+  break;
+ case 6:
+  echo "6";
+  break;
+ default:
+  echo "to se vypíše když nic neplatí";
+}
+
+  echo "<br>";
+  //8.úkol
+  $zvirata = array("pes", "kočka", "ovce", "myš", "ještěrka", "pavouk", "had", "pták", "křeček", "vlk");
+  var_dump($zvirata);
+
+  echo"<br>";
+  echo"<br>";
+//9.úkol
+$filmy ["film"]["životopisný"]["herec"]["Rami Malek"]["jemno filmu"]= "Bohemian Rhapsody";
+$filmy ["film"]["akční"]["herec"]["Robert Downey Jr."]["jemno filmu"]= "Avengers";
+$filmy ["film"]["detektivní"]["herec"]["Robert Downey Jr."]["jemno filmu"]= "Sherlock Holmes";
+$filmy ["film"]["sci-fi"]["herec"]["Ewan McGregor"]["jemno filmu"]= "Star Wars";
+$filmy ["film"]["sci-fi"]["herec"]["Leonard Nemoi"]["jemno filmu"]= "Star Trek";
+$filmy ["film"]["thriller"]["herec"]["James McAvoy"]["jemno filmu"]= "Rozpolcený";
+$filmy ["film"]["akční"]["herec"]["Christian Bale"]["jemno filmu"]= "Batman";
+$filmy ["film"]["akční"]["herec"]["Tobey Maguire"]["jemno filmu"]= "Spiderman";
+$filmy ["film"]["akční"]["herec"]["Jake Gyllenhaal"]["jemno filmu"]= "Prince of Persia";
+$filmy ["film"]["drama"]["herec"]["Tom Hanks"]["jemno filmu"]= "Forrest Gump";
+var_dump($filmy);
+echo"<hr>";
+
+
+
+
+
 ?>
+
+
